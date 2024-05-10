@@ -3,7 +3,7 @@ import { Formik, Form, Field } from 'formik';
 
 const PopupForm = ({ onClose }) => {
     const handleSubmit = (values, actions) => {
-        // Ajoutez ici la logique pour soumettre le formulaire
+        
         console.log(values);
         onClose();
     };
