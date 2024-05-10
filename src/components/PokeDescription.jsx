@@ -28,10 +28,9 @@ const PokeDescription = () => {
               
             </div>
             <div className='poketype'>
-              <p>{pokemon.apiTypes[1]?.name} {pokemon.apiTypes[0].name}</p>
-            
+            <img width={100}src={pokemon.apiTypes[0].image}/>
+            <img width={100} src={pokemon.apiTypes[1]?.image}/> 
             </div>
-            
             <hr />
             <div className='row'>
               <tr className='carte2 rounded-3 col m-5 pt-3'> <h4>Abilities :</h4>
